@@ -28,7 +28,7 @@ This application is covered by the none license.
 ## Questions
  undefined<br />
 <br />
-:octocat: Find me on GitHub: [zpuckett](https://github.com/zpuckett)<br />
+Find me on GitHub: [zpuckett](https://github.com/zpuckett)<br />
 <br />
 ✉️ Email me with any questions: zpuckettdesign@gmail.com<br /><br />
 _This README was generated with ❤️ by [README-generator](https://github.com/zpuckett/README-generator) 
