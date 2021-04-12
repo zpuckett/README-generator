@@ -1,14 +1,14 @@
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
-const generateReadme = require("./src/generateReadme")
+const generatePage = require("./src/generateReadme")
 const writeFileAsync = util.promisify(fs.writeFile);
 
 const questions = () => {
-    inquirer.prompt([
+    return inquirer.prompt([
     {
         type: 'input',
-        name: 'title',
+        name: 'projectTitle',
         message: 'What is the project title?'
     },
     {
@@ -34,21 +34,12 @@ const questions = () => {
     {
         type: 'input',
         name: 'test',
-        message: 'Enter the project text instructions.',
+        message: 'Enter the project test instructions.',
     },
     {
         type: 'input',
         name: 'license',
         message: 'Enter the project license information.',
-        choices: [
-            "Apache",
-            "Academic",
-            "GNU",
-            "ISC",
-            "MIT",
-            "Mozilla",
-            "Open"
-        ]
     },
     {
         type: 'input',
@@ -67,7 +58,7 @@ async function init() {
     try {
         // Ask user questions and generate responses
         const answers = await questions();
-        const generateContent = generateReadme(answers);
+        const generateContent = generatePage(answers);
         // Write new README.md 
         await writeFileAsync('./src/README.md', generateContent);
         console.log('Successfully wrote to README.md');
