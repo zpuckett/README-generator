@@ -25,8 +25,7 @@ Zach Puckett
 ![badge](https://img.shields.io/badge/license-none-brightgreen)
 <br />
 This application is covered by the none license. 
-## Questions
- undefined<br />
+## Questions?
 <br />
 Find me on GitHub: [zpuckett](https://github.com/zpuckett)<br />
 <br />
