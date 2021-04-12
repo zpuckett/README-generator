@@ -4,6 +4,7 @@
 ![badge](https://img.shields.io/badge/license-none-brightgreen)<br />
 ## Description
 A command-line application that accepts user input for creation of README.md files.
+![ScreenShot](src/ezgif.com-gif-maker.gif)
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
